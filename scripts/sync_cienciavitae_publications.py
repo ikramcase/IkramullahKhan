@@ -31,8 +31,8 @@ ORCID_SOURCE = "orcid"
 PHYSIO_TWIN_TITLE = "Physio-Digital Twin for Human-Centered IoT Mobility: A Proof-of-Concept Implementation on the MariaBike Platform"
 PHYSIO_TWIN_DOI = "10.1145/3803291.3803295"
 PHYSIO_TWIN_VENUE = "2026 The 9th International Conference on Information and Computer Technologies (ICICT 2026), Honolulu-Hawaii"
-PHYSIO_TWIN_AUTHORS = "Syed Tahir Ali Shah, J.P. Santos, Gabriel Constantinescu, Jos\u00e9 M. Fernandes, A.B. Pereira."
-PHYSIO_TWIN_NOTE = "Best Paper Award; corresponding author: Syed Tahir Ali Shah."
+PHYSIO_TWIN_AUTHORS = "Ikramullah Khan, J.P. Santos, Gabriel Constantinescu, Jos\u00e9 M. Fernandes, A.B. Pereira."
+PHYSIO_TWIN_NOTE = "Best Paper Award; corresponding author: Ikramullah Khan."
 PHYSIO_TWIN_CERTIFICATE_ID = "best-paper-jps-2026"
 MONTHS = (
     "January",
