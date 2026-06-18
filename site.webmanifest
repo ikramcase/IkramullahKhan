@@ -1,0 +1,22 @@
+{
+  "name": "Ikramullah Khan",
+  "short_name": "Ikramullah",
+  "description": "Academic portfolio for Ikramullah Khan, Ph.D. researcher in Agentic AI with Health monitoring.",
+  "start_url": "/ikramullahkhan/",
+  "scope": "/ikramullahkhan/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/ikramullahkhan/assets/images/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/ikramullahkhan/assets/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

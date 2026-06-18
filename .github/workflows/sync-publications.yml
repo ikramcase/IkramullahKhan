@@ -1,0 +1,36 @@
+name: Sync publications from Ciencia Vitae and ORCID
+
+on:
+  schedule:
+    - cron: "0 6 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-publications:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Sync publications
+        run: python scripts/sync_cienciavitae_publications.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No publication changes."
+            exit 0
+          fi
+          git add assets/data/site-data.json
+          git commit -m "Sync publications from external profiles"
+          git push

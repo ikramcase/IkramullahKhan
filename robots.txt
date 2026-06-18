@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tahirkazmi72.github.io/syedtahiralishah/sitemap.xml

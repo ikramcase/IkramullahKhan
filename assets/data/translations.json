@@ -1,0 +1,635 @@
+{
+  "defaultLanguage": "en",
+  "languages": [
+    { "code": "en", "short": "EN", "label": "English", "dir": "ltr" },
+    { "code": "pt", "short": "PT", "label": "Português", "dir": "ltr" },
+    { "code": "es", "short": "ES", "label": "Español", "dir": "ltr" },
+    { "code": "fr", "short": "FR", "label": "Français", "dir": "ltr" },
+    { "code": "ur", "short": "UR", "label": "اردو", "dir": "rtl" }
+  ],
+  "ui": {
+    "en": {
+      "languageLabel": "Language",
+      "themeDark": "Dark",
+      "themeLight": "Light",
+      "switchToDark": "Switch to dark mode",
+      "switchToLight": "Switch to light mode",
+      "publicationSearchLabel": "Search publications",
+      "publicationSearchPlaceholder": "Search publications, authors, DOI",
+      "year": "Year",
+      "allYears": "All years",
+      "sort": "Sort",
+      "sortNewest": "Newest first",
+      "sortOldest": "Oldest first",
+      "sortTitle": "Title A-Z",
+      "sortAward": "Award first",
+      "awardedOnly": "Awarded only",
+      "awarded": "Awarded",
+      "noPublicationMatches": "No publications match the selected filters.",
+      "readArticle": "Read Article",
+      "copyBibtex": "Copy BibTeX",
+      "copied": "Copied",
+      "copyFailed": "Copy failed",
+      "downloadBib": "Download .bib",
+      "openFullCertificate": "Open Full Certificate",
+      "verifyOnline": "Verify Online",
+      "closeCertificate": "Close certificate",
+      "copyrightPrefix": "Copyright",
+      "copyrightSuffix": "All Rights Reserved.",
+      "loadErrorTitle": "Content could not be loaded",
+      "loadErrorText": "Run the site through a local server or GitHub Pages so the JSON content file can be fetched.",
+      "noscriptTitle": "JavaScript required",
+      "noscriptText": "This site renders profile data from a JSON content file."
+    },
+    "pt": {
+      "languageLabel": "Idioma",
+      "themeDark": "Escuro",
+      "themeLight": "Claro",
+      "switchToDark": "Mudar para modo escuro",
+      "switchToLight": "Mudar para modo claro",
+      "publicationSearchLabel": "Pesquisar publicações",
+      "publicationSearchPlaceholder": "Pesquisar publicações, autores, DOI",
+      "year": "Ano",
+      "allYears": "Todos os anos",
+      "sort": "Ordenar",
+      "sortNewest": "Mais recentes",
+      "sortOldest": "Mais antigas",
+      "sortTitle": "Título A-Z",
+      "sortAward": "Prémios primeiro",
+      "awardedOnly": "Apenas premiadas",
+      "awarded": "Premiada",
+      "noPublicationMatches": "Nenhuma publicação corresponde aos filtros selecionados.",
+      "readArticle": "Ler artigo",
+      "copyBibtex": "Copiar BibTeX",
+      "copied": "Copiado",
+      "copyFailed": "Falha ao copiar",
+      "downloadBib": "Baixar .bib",
+      "openFullCertificate": "Abrir certificado completo",
+      "verifyOnline": "Verificar online",
+      "closeCertificate": "Fechar certificado",
+      "copyrightPrefix": "Copyright",
+      "copyrightSuffix": "Todos os direitos reservados.",
+      "loadErrorTitle": "Não foi possível carregar o conteúdo",
+      "loadErrorText": "Execute o site num servidor local ou no GitHub Pages para carregar o ficheiro JSON.",
+      "noscriptTitle": "JavaScript necessário",
+      "noscriptText": "Este site apresenta dados de perfil a partir de um ficheiro JSON."
+    },
+    "es": {
+      "languageLabel": "Idioma",
+      "themeDark": "Oscuro",
+      "themeLight": "Claro",
+      "switchToDark": "Cambiar a modo oscuro",
+      "switchToLight": "Cambiar a modo claro",
+      "publicationSearchLabel": "Buscar publicaciones",
+      "publicationSearchPlaceholder": "Buscar publicaciones, autores, DOI",
+      "year": "Año",
+      "allYears": "Todos los años",
+      "sort": "Ordenar",
+      "sortNewest": "Más recientes",
+      "sortOldest": "Más antiguas",
+      "sortTitle": "Título A-Z",
+      "sortAward": "Premios primero",
+      "awardedOnly": "Solo premiadas",
+      "awarded": "Premiada",
+      "noPublicationMatches": "Ninguna publicación coincide con los filtros seleccionados.",
+      "readArticle": "Leer artículo",
+      "copyBibtex": "Copiar BibTeX",
+      "copied": "Copiado",
+      "copyFailed": "Error al copiar",
+      "downloadBib": "Descargar .bib",
+      "openFullCertificate": "Abrir certificado completo",
+      "verifyOnline": "Verificar en línea",
+      "closeCertificate": "Cerrar certificado",
+      "copyrightPrefix": "Copyright",
+      "copyrightSuffix": "Todos los derechos reservados.",
+      "loadErrorTitle": "No se pudo cargar el contenido",
+      "loadErrorText": "Ejecute el sitio con un servidor local o GitHub Pages para cargar el archivo JSON.",
+      "noscriptTitle": "JavaScript requerido",
+      "noscriptText": "Este sitio muestra datos del perfil desde un archivo JSON."
+    },
+    "fr": {
+      "languageLabel": "Langue",
+      "themeDark": "Sombre",
+      "themeLight": "Clair",
+      "switchToDark": "Passer en mode sombre",
+      "switchToLight": "Passer en mode clair",
+      "publicationSearchLabel": "Rechercher des publications",
+      "publicationSearchPlaceholder": "Rechercher publications, auteurs, DOI",
+      "year": "Année",
+      "allYears": "Toutes les années",
+      "sort": "Trier",
+      "sortNewest": "Plus récentes",
+      "sortOldest": "Plus anciennes",
+      "sortTitle": "Titre A-Z",
+      "sortAward": "Prix d'abord",
+      "awardedOnly": "Primées uniquement",
+      "awarded": "Primée",
+      "noPublicationMatches": "Aucune publication ne correspond aux filtres sélectionnés.",
+      "readArticle": "Lire l'article",
+      "copyBibtex": "Copier BibTeX",
+      "copied": "Copié",
+      "copyFailed": "Échec de la copie",
+      "downloadBib": "Télécharger .bib",
+      "openFullCertificate": "Ouvrir le certificat complet",
+      "verifyOnline": "Vérifier en ligne",
+      "closeCertificate": "Fermer le certificat",
+      "copyrightPrefix": "Copyright",
+      "copyrightSuffix": "Tous droits réservés.",
+      "loadErrorTitle": "Le contenu n'a pas pu être chargé",
+      "loadErrorText": "Lancez le site via un serveur local ou GitHub Pages pour charger le fichier JSON.",
+      "noscriptTitle": "JavaScript requis",
+      "noscriptText": "Ce site affiche les données du profil à partir d'un fichier JSON."
+    },
+    "ur": {
+      "languageLabel": "زبان",
+      "themeDark": "ڈارک",
+      "themeLight": "لائٹ",
+      "switchToDark": "ڈارک موڈ پر جائیں",
+      "switchToLight": "لائٹ موڈ پر جائیں",
+      "publicationSearchLabel": "اشاعتیں تلاش کریں",
+      "publicationSearchPlaceholder": "اشاعتیں، مصنفین یا DOI تلاش کریں",
+      "year": "سال",
+      "allYears": "تمام سال",
+      "sort": "ترتیب",
+      "sortNewest": "نئی پہلے",
+      "sortOldest": "پرانی پہلے",
+      "sortTitle": "عنوان A-Z",
+      "sortAward": "ایوارڈ پہلے",
+      "awardedOnly": "صرف ایوارڈ والی",
+      "awarded": "ایوارڈ یافتہ",
+      "noPublicationMatches": "منتخب فلٹرز سے کوئی اشاعت نہیں ملی۔",
+      "readArticle": "مضمون دیکھیں",
+      "copyBibtex": "BibTeX کاپی کریں",
+      "copied": "کاپی ہو گیا",
+      "copyFailed": "کاپی ناکام",
+      "downloadBib": ".bib ڈاؤن لوڈ",
+      "openFullCertificate": "مکمل سرٹیفکیٹ کھولیں",
+      "verifyOnline": "آن لائن تصدیق",
+      "closeCertificate": "سرٹیفکیٹ بند کریں",
+      "copyrightPrefix": "کاپی رائٹ",
+      "copyrightSuffix": "جملہ حقوق محفوظ ہیں۔",
+      "loadErrorTitle": "مواد لوڈ نہیں ہو سکا",
+      "loadErrorText": "JSON مواد لوڈ کرنے کے لیے سائٹ کو لوکل سرور یا GitHub Pages سے چلائیں۔",
+      "noscriptTitle": "JavaScript ضروری ہے",
+      "noscriptText": "یہ سائٹ پروفائل ڈیٹا JSON فائل سے دکھاتی ہے۔"
+    }
+  },
+  "content": {
+    "pt": {
+      "site": {
+        "pageTitle": "Syed Tahir Ali Shah | Investigador de Doutoramento",
+        "description": "Investigador de doutoramento em Engenharia Mecânica, IoT embebido, computação afetiva, monitorização fisiológica e mobilidade inteligente."
+      },
+      "navigation": [
+        { "label": "Bio" },
+        { "label": "Educação" },
+        { "label": "Certificados" },
+        { "label": "Investigação" },
+        { "label": "Publicações" },
+        { "label": "Projetos" },
+        { "label": "Software" },
+        { "label": "Contacto" }
+      ],
+      "hero": {
+        "subtitle": "Investigador de Doutoramento",
+        "title": "Mobilidade inteligente com IoT sensível às emoções",
+        "summary": "Explorando a interseção entre Engenharia Mecânica, aprendizagem automática embebida e computação afetiva na Universidade de Aveiro.",
+        "actions": [
+          { "label": "Conhecer o meu trabalho" },
+          { "label": "Certificados" }
+        ]
+      },
+      "bio": {
+        "title": "Sobre mim",
+        "paragraphs": [
+          "Syed Tahir Ali Shah é um investigador de doutoramento multidisciplinar que trabalha na interseção entre Engenharia Mecânica, Ciência da Computação e sistemas embebidos de Internet das Coisas (IoT). É atualmente estudante de doutoramento em Engenharia Mecânica na Universidade de Aveiro (Portugal) e possui uma bolsa de doutoramento BDANA apoiada pela Fundação para a Ciência e a Tecnologia (FCT).",
+          "Com uma base sólida em Ciência da Computação, o seu trabalho liga integração hardware-software, sensores vestíveis e inteligência na periferia. A sua investigação atual foca-se no desenvolvimento de sistemas de mobilidade sensíveis às emoções e à fisiologia, usando sinais como frequência cardíaca e movimento juntamente com modelos embebidos de aprendizagem automática.",
+          "No geral, o seu trabalho promove a próxima geração de sistemas inteligentes que respondem às necessidades humanas em tempo real, combinando desenho de engenharia, ciência de dados e computação embebida."
+        ]
+      },
+      "education": {
+        "title": "Percurso académico",
+        "items": [
+          { "title": "Doutoramento em Engenharia Mecânica", "description": "Foco: sistemas de mobilidade com IoT sensível às emoções." },
+          { "title": "Mestrado em Ciência da Computação", "description": "Classificação: 14/20." },
+          { "title": "Licenciatura em Ciência da Computação", "description": "Áreas principais: engenharia de software, bases de dados, estruturas de dados e desenho de algoritmos." },
+          { "title": "Investigador estagiário", "description": "Instituição de acolhimento: Universidade de Aveiro, Departamento de Engenharia Mecânica." },
+          { "title": "Bolseiro", "description": "" }
+        ]
+      },
+      "certificates": {
+        "title": "Certificados",
+        "subtitle": "Certificados académicos e profissionais são apresentados aqui.",
+        "emptyMessage": "Ainda não foram adicionados ficheiros de certificados.",
+        "items": [
+          { "title": "Certificado de Melhor Artigo", "description": "Para o artigo CT0805: Physio-Digital Twin for Human-Centered IoT Mobility: A Proof-of-Concept Implementation on the MariaBike Platform.", "buttonLabel": "Ver certificado" },
+          { "title": "Certificado de participação em Mentoria Científica I", "description": "Certificado de participação como mentor científico no Programa Mentoria Científica I, CHAI I, com carga total de 13 horas.", "buttonLabel": "Ver certificado", "verifyLabel": "Verificar online" }
+        ]
+      },
+      "research": {
+        "title": "Interesses de investigação",
+        "items": [
+          { "title": "Computação afetiva", "description": "Integração de fatores emocionais humanos em redes IoT para criar ambientes responsivos." },
+          { "title": "ML embebido", "description": "Implementação de modelos de aprendizagem automática em runtimes móveis e embebidos, incluindo TinyML e Edge AI." },
+          { "title": "Monitorização fisiológica", "description": "Sensores vestíveis para acompanhamento em tempo real de saúde e stress durante a mobilidade." },
+          { "title": "Mobilidade inteligente", "description": "Arquiteturas IoT para casas inteligentes e veículos elétricos de próxima geração." }
+        ]
+      },
+      "languages": {
+        "title": "Idiomas",
+        "columns": ["Idioma", "Fala", "Leitura", "Escrita", "Compreensão oral", "Avaliação"],
+        "rows": [
+          [{ "primary": "Urdu", "note": "Língua materna" }, "Nativo", "Nativo", "Nativo", "Nativo", "Nativo"],
+          [{ "primary": "Inglês" }, "Intermédio superior (B2)", "Proficiência (C2)", "Proficiência (C2)", "Avançado (C1)", "Proficiência (C2)"],
+          [{ "primary": "Português" }, "Iniciante (A1)", "Iniciante (A1)", "Iniciante (A1)", "Intermédio (B1)", "Intermédio superior (B2)"]
+        ]
+      },
+      "publications": {
+        "title": "Publicações",
+        "lastUpdated": "Atualizado: 17 de junho de 2026",
+        "categories": [
+          { "label": "Todas" },
+          { "label": "Revistas e artigos" },
+          { "label": "Conferências" }
+        ]
+      },
+      "software": {
+        "title": "Projetos e software",
+        "projectsTitle": "Projetos de investigação principais",
+        "featured": {
+          "badge": "Software em destaque",
+          "description": "Dashboard de e-bike em tempo real com integração BLE e MQTT. Uma ferramenta para monitorização fisiológica em mobilidade.",
+          "features": ["Dashboard em tempo real", "Integração BLE e MQTT", "Compatível com Android / iOS", "Versão 0.1 (2025)"],
+          "cta": { "label": "Pedir demonstração" }
+        }
+      },
+      "service": {
+        "title": "Serviço e mentoria",
+        "items": [
+          { "title": "Mentoria científica (CHAI I)", "description": "Mentoria ao estudante João Bispo (Ciências Sociais, Humanidades, Artes e Investigação I)." },
+          { "title": "Orientador de tese", "description": "Tema: sistema de agricultura inteligente baseado em IoT com monitorização em tempo real da humidade do solo e meteorologia." },
+          { "title": "Coorientador de tese", "description": "Tema: reconhecimento de emoções em tempo real a partir de expressões faciais usando deep learning." },
+          { "title": "Apresentação de poster: AM2R", "description": "Apresentou \"Smart E-Bike Systems: Integrating Rider-Specific Information to Enhance the Riding Experience\"." },
+          { "title": "Apresentação em conferência", "description": "Apresentação sobre integração de sinais fisiológicos de wearables em soluções de mobilidade embebidas (MariaBike)." }
+        ]
+      },
+      "contact": {
+        "title": "Contacto",
+        "subtitle": "Disponível para colaboração científica e discussão académica.",
+        "cards": [
+          { "title": "Email profissional" },
+          { "title": "Email pessoal" },
+          { "title": "Morada", "lines": ["Centre for Mechanical Technology and Automation (TEMA)", "Dept. of Mechanical Engineering", "University of Aveiro, 3810-193", "Aveiro, Portugal"] }
+        ],
+        "profileLinks": [
+          { "label": "Google Scholar" },
+          { "label": "ORCID" },
+          { "label": "Website pessoal" },
+          { "label": "Perfil TEMA" }
+        ]
+      }
+    },
+    "es": {
+      "site": {
+        "pageTitle": "Syed Tahir Ali Shah | Investigador de Doctorado",
+        "description": "Investigador de doctorado en Ingeniería Mecánica, IoT embebido, computación afectiva, monitorización fisiológica y movilidad inteligente."
+      },
+      "navigation": [
+        { "label": "Bio" },
+        { "label": "Educación" },
+        { "label": "Certificados" },
+        { "label": "Investigación" },
+        { "label": "Publicaciones" },
+        { "label": "Proyectos" },
+        { "label": "Software" },
+        { "label": "Contacto" }
+      ],
+      "hero": {
+        "subtitle": "Investigador de Doctorado",
+        "title": "Movilidad inteligente con IoT sensible a las emociones",
+        "summary": "Explorando la intersección entre Ingeniería Mecánica, aprendizaje automático embebido y computación afectiva en la Universidad de Aveiro.",
+        "actions": [
+          { "label": "Conocer mi trabajo" },
+          { "label": "Certificados" }
+        ]
+      },
+      "bio": {
+        "title": "Sobre mí",
+        "paragraphs": [
+          "Syed Tahir Ali Shah es un investigador de doctorado multidisciplinar que trabaja en la intersección de la Ingeniería Mecánica, la Informática y los sistemas embebidos de Internet de las Cosas (IoT). Actualmente es estudiante de doctorado en Ingeniería Mecánica en la Universidad de Aveiro (Portugal) y cuenta con una beca doctoral BDANA apoyada por la Fundação para a Ciência e a Tecnologia (FCT).",
+          "Con una sólida base en Informática, su trabajo conecta integración hardware-software, sensores vestibles e inteligencia en el borde. Su investigación actual se centra en sistemas de movilidad sensibles a las emociones y a la fisiología, usando señales de frecuencia cardíaca y movimiento junto con modelos embebidos de aprendizaje automático.",
+          "En conjunto, su trabajo impulsa la próxima generación de sistemas inteligentes que responden a las necesidades humanas en tiempo real, combinando diseño de ingeniería, ciencia de datos y computación embebida."
+        ]
+      },
+      "education": {
+        "title": "Trayectoria académica",
+        "items": [
+          { "title": "Doctorado en Ingeniería Mecánica", "description": "Enfoque: sistemas de movilidad con IoT sensible a las emociones." },
+          { "title": "Máster en Informática", "description": "Clasificación: 14/20." },
+          { "title": "Grado en Informática", "description": "Áreas principales: ingeniería de software, bases de datos, estructuras de datos y diseño de algoritmos." },
+          { "title": "Investigador en prácticas", "description": "Institución anfitriona: Universidade de Aveiro Departamento de Engenharia Mecânica." },
+          { "title": "Becario", "description": "" }
+        ]
+      },
+      "certificates": {
+        "title": "Certificados",
+        "subtitle": "Aquí se muestran certificados académicos y profesionales.",
+        "emptyMessage": "Aún no se han añadido archivos de certificados.",
+        "items": [
+          { "title": "Certificado de mejor artículo", "description": "Para el artículo CT0805: Physio-Digital Twin for Human-Centered IoT Mobility: A Proof-of-Concept Implementation on the MariaBike Platform.", "buttonLabel": "Ver certificado" },
+          { "title": "Certificado de participación en Mentoría Científica I", "description": "Certificado de participación como mentor científico en el Programa de Mentoría Científica I, CHAI I, con una carga total de 13 horas.", "buttonLabel": "Ver certificado", "verifyLabel": "Verificar en línea" }
+        ]
+      },
+      "research": {
+        "title": "Intereses de investigación",
+        "items": [
+          { "title": "Computación afectiva", "description": "Integración de factores emocionales humanos en redes IoT para crear entornos responsivos." },
+          { "title": "ML embebido", "description": "Despliegue de modelos de aprendizaje automático en runtimes móviles y embebidos, incluyendo TinyML y Edge AI." },
+          { "title": "Monitorización fisiológica", "description": "Sensado con wearables para seguimiento en tiempo real de salud y estrés durante la movilidad." },
+          { "title": "Movilidad inteligente", "description": "Arquitecturas IoT para hogares inteligentes y vehículos eléctricos de próxima generación." }
+        ]
+      },
+      "languages": {
+        "title": "Idiomas",
+        "columns": ["Idioma", "Expresión oral", "Lectura", "Escritura", "Comprensión oral", "Evaluación"],
+        "rows": [
+          [{ "primary": "Urdu", "note": "Lengua materna" }, "Nativo", "Nativo", "Nativo", "Nativo", "Nativo"],
+          [{ "primary": "Inglés" }, "Intermedio alto (B2)", "Dominio (C2)", "Dominio (C2)", "Avanzado (C1)", "Dominio (C2)"],
+          [{ "primary": "Portugués" }, "Inicial (A1)", "Inicial (A1)", "Inicial (A1)", "Intermedio (B1)", "Intermedio alto (B2)"]
+        ]
+      },
+      "publications": {
+        "title": "Publicaciones",
+        "lastUpdated": "Actualizado: 17 de junio de 2026",
+        "categories": [
+          { "label": "Todas" },
+          { "label": "Revistas y artículos" },
+          { "label": "Conferencias" }
+        ]
+      },
+      "software": {
+        "title": "Proyectos y software",
+        "projectsTitle": "Proyectos clave de investigación",
+        "featured": {
+          "badge": "Software destacado",
+          "description": "Panel de e-bike en tiempo real con integración BLE y MQTT. Una herramienta para monitorización fisiológica en movilidad.",
+          "features": ["Panel en tiempo real", "Integración BLE y MQTT", "Compatible con Android / iOS", "Versión 0.1 (2025)"],
+          "cta": { "label": "Solicitar demo" }
+        }
+      },
+      "service": {
+        "title": "Servicio y mentoría",
+        "items": [
+          { "title": "Mentoría científica (CHAI I)", "description": "Mentoría del estudiante João Bispo (Ciencias Sociales, Humanidades, Artes e Investigación I)." },
+          { "title": "Director de tesis", "description": "Tema: sistema de agricultura inteligente basado en IoT con monitorización en tiempo real de humedad del suelo y clima." },
+          { "title": "Codirector de tesis", "description": "Tema: reconocimiento de emociones en tiempo real a partir de expresiones faciales usando aprendizaje profundo." },
+          { "title": "Presentación de póster: AM2R", "description": "Presentó \"Smart E-Bike Systems: Integrating Rider-Specific Information to Enhance the Riding Experience\"." },
+          { "title": "Presentación en conferencia", "description": "Presentación sobre integración de señales fisiológicas de wearables en soluciones de movilidad embebidas (MariaBike)." }
+        ]
+      },
+      "contact": {
+        "title": "Contacto",
+        "subtitle": "Disponible para colaboración de investigación y discusión académica.",
+        "cards": [
+          { "title": "Email profesional" },
+          { "title": "Email personal" },
+          { "title": "Dirección", "lines": ["Centre for Mechanical Technology and Automation (TEMA)", "Dept. of Mechanical Engineering", "University of Aveiro, 3810-193", "Aveiro, Portugal"] }
+        ],
+        "profileLinks": [
+          { "label": "Google Scholar" },
+          { "label": "ORCID" },
+          { "label": "Sitio web personal" },
+          { "label": "Perfil TEMA" }
+        ]
+      }
+    },
+    "fr": {
+      "site": {
+        "pageTitle": "Syed Tahir Ali Shah | Doctorant chercheur",
+        "description": "Doctorant chercheur en génie mécanique, IoT embarqué, informatique affective, suivi physiologique et mobilité intelligente."
+      },
+      "navigation": [
+        { "label": "Bio" },
+        { "label": "Formation" },
+        { "label": "Certificats" },
+        { "label": "Recherche" },
+        { "label": "Publications" },
+        { "label": "Projets" },
+        { "label": "Logiciels" },
+        { "label": "Contact" }
+      ],
+      "hero": {
+        "subtitle": "Doctorant chercheur",
+        "title": "Mobilité intelligente avec IoT sensible aux émotions",
+        "summary": "Explorer l'intersection du génie mécanique, de l'apprentissage automatique embarqué et de l'informatique affective à l'Université d'Aveiro.",
+        "actions": [
+          { "label": "Découvrir mon travail" },
+          { "label": "Certificats" }
+        ]
+      },
+      "bio": {
+        "title": "À propos",
+        "paragraphs": [
+          "Syed Tahir Ali Shah est un doctorant chercheur multidisciplinaire travaillant à l'intersection du génie mécanique, de l'informatique et des systèmes embarqués de l'Internet des objets (IoT). Il est actuellement doctorant en génie mécanique à l'Université d'Aveiro (Portugal) et bénéficie d'une bourse doctorale BDANA soutenue par la Fundação para a Ciência e a Tecnologia (FCT).",
+          "Avec une solide formation en informatique, son travail relie l'intégration matériel-logiciel, les capteurs portables et l'intelligence en périphérie. Ses recherches actuelles portent sur des systèmes de mobilité sensibles aux émotions et à la physiologie, utilisant des signaux de fréquence cardiaque et de mouvement avec des modèles embarqués d'apprentissage automatique.",
+          "Dans l'ensemble, son travail soutient la prochaine génération de systèmes intelligents répondant aux besoins humains en temps réel, en combinant conception d'ingénierie, science des données et informatique embarquée."
+        ]
+      },
+      "education": {
+        "title": "Parcours académique",
+        "items": [
+          { "title": "Doctorat en génie mécanique", "description": "Axe: systèmes de mobilité intégrant l'IoT sensible aux émotions." },
+          { "title": "Master en informatique", "description": "Classification: 14/20." },
+          { "title": "Licence en informatique", "description": "Domaines principaux: génie logiciel, bases de données, structures de données et conception d'algorithmes." },
+          { "title": "Chercheur stagiaire", "description": "Institution d'accueil: Universidade de Aveiro Departamento de Engenharia Mecânica." },
+          { "title": "Boursier", "description": "" }
+        ]
+      },
+      "certificates": {
+        "title": "Certificats",
+        "subtitle": "Les certificats académiques et professionnels sont affichés ici.",
+        "emptyMessage": "Aucun fichier de certificat n'a encore été ajouté.",
+        "items": [
+          { "title": "Certificat du meilleur article", "description": "Pour l'article CT0805: Physio-Digital Twin for Human-Centered IoT Mobility: A Proof-of-Concept Implementation on the MariaBike Platform.", "buttonLabel": "Voir le certificat" },
+          { "title": "Certificat de participation au mentorat scientifique I", "description": "Certificat de participation en tant que mentor scientifique au programme Mentorat scientifique I, CHAI I, avec une charge totale de 13 heures.", "buttonLabel": "Voir le certificat", "verifyLabel": "Vérifier en ligne" }
+        ]
+      },
+      "research": {
+        "title": "Axes de recherche",
+        "items": [
+          { "title": "Informatique affective", "description": "Intégration de facteurs émotionnels humains dans les réseaux IoT pour créer des environnements réactifs." },
+          { "title": "ML embarqué", "description": "Déploiement de modèles d'apprentissage automatique sur des environnements mobiles et embarqués, y compris TinyML et Edge AI." },
+          { "title": "Suivi physiologique", "description": "Capteurs portables pour le suivi en temps réel de la santé et du stress pendant la mobilité." },
+          { "title": "Mobilité intelligente", "description": "Architectures IoT pour maisons intelligentes et véhicules électriques de nouvelle génération." }
+        ]
+      },
+      "languages": {
+        "title": "Langues",
+        "columns": ["Langue", "Expression orale", "Lecture", "Écriture", "Compréhension orale", "Évaluation"],
+        "rows": [
+          [{ "primary": "Ourdou", "note": "Langue maternelle" }, "Natif", "Natif", "Natif", "Natif", "Natif"],
+          [{ "primary": "Anglais" }, "Intermédiaire supérieur (B2)", "Maîtrise (C2)", "Maîtrise (C2)", "Avancé (C1)", "Maîtrise (C2)"],
+          [{ "primary": "Portugais" }, "Débutant (A1)", "Débutant (A1)", "Débutant (A1)", "Intermédiaire (B1)", "Intermédiaire supérieur (B2)"]
+        ]
+      },
+      "publications": {
+        "title": "Publications",
+        "lastUpdated": "Mis à jour: 17 juin 2026",
+        "categories": [
+          { "label": "Toutes" },
+          { "label": "Revues et articles" },
+          { "label": "Conférences" }
+        ]
+      },
+      "software": {
+        "title": "Projets et logiciels",
+        "projectsTitle": "Principaux projets de recherche",
+        "featured": {
+          "badge": "Logiciel en vedette",
+          "description": "Tableau de bord e-bike en temps réel avec intégration BLE et MQTT. Un outil de suivi physiologique en mobilité.",
+          "features": ["Tableau de bord en temps réel", "Intégration BLE et MQTT", "Compatible Android / iOS", "Version 0.1 (2025)"],
+          "cta": { "label": "Demander une démonstration" }
+        }
+      },
+      "service": {
+        "title": "Service et mentorat",
+        "items": [
+          { "title": "Mentorat scientifique (CHAI I)", "description": "Mentorat de l'étudiant João Bispo (Sciences sociales, humanités, arts et recherche I)." },
+          { "title": "Directeur de mémoire", "description": "Sujet: système d'agriculture intelligente basé sur l'IoT avec suivi en temps réel de l'humidité du sol et de la météo." },
+          { "title": "Co-directeur de mémoire", "description": "Sujet: reconnaissance des émotions en temps réel à partir d'expressions faciales avec apprentissage profond." },
+          { "title": "Présentation de poster: AM2R", "description": "Présentation de \"Smart E-Bike Systems: Integrating Rider-Specific Information to Enhance the Riding Experience\"." },
+          { "title": "Présentation en conférence", "description": "Présentation sur l'intégration de signaux physiologiques issus de wearables dans des solutions de mobilité embarquées (MariaBike)." }
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "subtitle": "Disponible pour collaboration scientifique et échange académique.",
+        "cards": [
+          { "title": "Email professionnel" },
+          { "title": "Email personnel" },
+          { "title": "Adresse", "lines": ["Centre for Mechanical Technology and Automation (TEMA)", "Dept. of Mechanical Engineering", "University of Aveiro, 3810-193", "Aveiro, Portugal"] }
+        ],
+        "profileLinks": [
+          { "label": "Google Scholar" },
+          { "label": "ORCID" },
+          { "label": "Site personnel" },
+          { "label": "Profil TEMA" }
+        ]
+      }
+    },
+    "ur": {
+      "site": {
+        "pageTitle": "سید طاہر علی شاہ | پی ایچ ڈی محقق",
+        "description": "مکینیکل انجینئرنگ، ایمبیڈڈ IoT، افیکٹو کمپیوٹنگ، فزیولوجیکل مانیٹرنگ اور اسمارٹ موبیلٹی میں پی ایچ ڈی محقق۔"
+      },
+      "navigation": [
+        { "label": "تعارف" },
+        { "label": "تعلیم" },
+        { "label": "سرٹیفکیٹس" },
+        { "label": "تحقیق" },
+        { "label": "اشاعتیں" },
+        { "label": "پروجیکٹس" },
+        { "label": "سافٹ ویئر" },
+        { "label": "رابطہ" }
+      ],
+      "hero": {
+        "subtitle": "پی ایچ ڈی محقق",
+        "title": "احساسات سے آگاہ IoT کے ذریعے اسمارٹ موبیلٹی",
+        "summary": "University of Aveiro میں مکینیکل انجینئرنگ، ایمبیڈڈ مشین لرننگ اور افیکٹو کمپیوٹنگ کے امتزاج پر تحقیق۔",
+        "actions": [
+          { "label": "میرا کام دیکھیں" },
+          { "label": "سرٹیفکیٹس" }
+        ]
+      },
+      "bio": {
+        "title": "میرے بارے میں",
+        "paragraphs": [
+          "سید طاہر علی شاہ ایک کثیر شعبہ جاتی پی ایچ ڈی محقق ہیں جو مکینیکل انجینئرنگ، کمپیوٹر سائنس اور ایمبیڈڈ Internet-of-Things (IoT) systems کے سنگم پر کام کر رہے ہیں۔ وہ University of Aveiro، پرتگال میں مکینیکل انجینئرنگ کے پی ایچ ڈی طالب علم ہیں اور Fundação para a Ciência e a Tecnologia (FCT) کے تعاون سے BDANA track کی پی ایچ ڈی fellowship رکھتے ہیں۔",
+          "کمپیوٹر سائنس کے مضبوط پس منظر کے ساتھ ان کا کام hardware-software integration، wearable sensing اور edge intelligence کو جوڑتا ہے۔ ان کی موجودہ تحقیق emotion-aware اور physiology-aware mobility systems پر مرکوز ہے، جس میں heart rate اور motion signals جیسے wearable data کو embedded machine learning models کے ساتھ استعمال کیا جاتا ہے۔",
+          "مجموعی طور پر ان کا کام ایسے intelligent systems کی اگلی نسل کو فروغ دیتا ہے جو انسانی ضروریات کا real time میں جواب دیتے ہیں، اور engineering design، data science اور embedded computing کو یکجا کرتے ہیں۔"
+        ]
+      },
+      "education": {
+        "title": "تعلیمی سفر",
+        "items": [
+          { "title": "مکینیکل انجینئرنگ میں پی ایچ ڈی", "description": "مرکز: emotion-aware IoT-integrated mobility systems." },
+          { "title": "ایم ایس سی کمپیوٹر سائنس", "description": "درجہ بندی: 14/20." },
+          { "title": "بی ایس سی کمپیوٹر سائنس", "description": "اہم مضامین: software engineering، database systems، data structures اور algorithm design." },
+          { "title": "ریسرچ ٹرینی", "description": "میزبان: Universidade de Aveiro Departamento de Engenharia Mecânica." },
+          { "title": "اسکالرشپ ہولڈر", "description": "" }
+        ]
+      },
+      "certificates": {
+        "title": "سرٹیفکیٹس",
+        "subtitle": "تعلیمی اور پیشہ ورانہ سرٹیفکیٹس یہاں دکھائے جائیں گے۔",
+        "emptyMessage": "سرٹیفکیٹ فائلیں ابھی شامل نہیں ہوئیں۔",
+        "items": [
+          { "title": "Best Paper Award سرٹیفکیٹ", "description": "مقالہ CT0805 کے لیے: Physio-Digital Twin for Human-Centered IoT Mobility: A Proof-of-Concept Implementation on the MariaBike Platform.", "buttonLabel": "سرٹیفکیٹ دیکھیں" },
+          { "title": "Scientific Mentorship I شرکت کا سرٹیفکیٹ", "description": "Scientific Mentorship I Program، CHAI I میں scientific mentor کے طور پر 13 گھنٹوں کی شرکت کا سرٹیفکیٹ۔", "buttonLabel": "سرٹیفکیٹ دیکھیں", "verifyLabel": "آن لائن تصدیق" }
+        ]
+      },
+      "research": {
+        "title": "تحقیقی دلچسپیاں",
+        "items": [
+          { "title": "افیکٹو کمپیوٹنگ", "description": "IoT networks میں انسانی جذباتی عوامل کو شامل کر کے responsive environments بنانا۔" },
+          { "title": "ایمبیڈڈ ML", "description": "Machine learning models کو mobile اور embedded runtimes پر deploy کرنا، بشمول TinyML اور Edge AI۔" },
+          { "title": "فزیولوجیکل مانیٹرنگ", "description": "Wearable sensing کے ذریعے mobility کے دوران health اور stress کی real-time monitoring۔" },
+          { "title": "اسمارٹ موبیلٹی", "description": "Smart homes اور next-generation electric vehicles کے لیے IoT architectures۔" }
+        ]
+      },
+      "languages": {
+        "title": "زبانیں",
+        "columns": ["زبان", "بولنا", "پڑھنا", "لکھنا", "سننا", "جائزہ"],
+        "rows": [
+          [{ "primary": "اردو", "note": "مادری زبان" }, "مادری", "مادری", "مادری", "مادری", "مادری"],
+          [{ "primary": "انگریزی" }, "Upper Intermediate (B2)", "Proficiency (C2)", "Proficiency (C2)", "Advanced (C1)", "Proficiency (C2)"],
+          [{ "primary": "Portuguese" }, "Beginner (A1)", "Beginner (A1)", "Beginner (A1)", "Intermediate (B1)", "Upper Intermediate (B2)"]
+        ]
+      },
+      "publications": {
+        "title": "اشاعتیں",
+        "lastUpdated": "اپ ڈیٹ: 17 جون 2026",
+        "categories": [
+          { "label": "تمام" },
+          { "label": "جرنلز اور مضامین" },
+          { "label": "کانفرنسز" }
+        ]
+      },
+      "software": {
+        "title": "پروجیکٹس اور سافٹ ویئر",
+        "projectsTitle": "اہم تحقیقی پروجیکٹس",
+        "featured": {
+          "badge": "نمایاں سافٹ ویئر",
+          "description": "BLE اور MQTT integration کے ساتھ real-time e-bike dashboard۔ mobility میں physiological monitoring کے لیے ایک tool۔",
+          "features": ["Real-time dashboard", "BLE اور MQTT integration", "Android / iOS compatible", "Version 0.1 (2025)"],
+          "cta": { "label": "ڈیمو کی درخواست" }
+        }
+      },
+      "service": {
+        "title": "سروس اور رہنمائی",
+        "items": [
+          { "title": "Scientific Mentorship (CHAI I)", "description": "طالب علم João Bispo کی رہنمائی (Social Sciences, Humanities, Arts, and Research I)." },
+          { "title": "تھیسس سپروائزر", "description": "موضوع: IoT-based smart farming system with real-time soil moisture and weather monitoring." },
+          { "title": "تھیسس کو-سپروائزر", "description": "موضوع: deep learning کے ذریعے facial expressions سے real-time emotion recognition." },
+          { "title": "Poster presentation: AM2R", "description": "\"Smart E-Bike Systems: Integrating Rider-Specific Information to Enhance the Riding Experience\" پیش کیا۔" },
+          { "title": "کانفرنس پریزنٹیشن", "description": "Wearables سے physiological signals کو embedded mobility solutions (MariaBike) میں integrate کرنے پر presentation." }
+        ]
+      },
+      "contact": {
+        "title": "رابطہ",
+        "subtitle": "تحقیقی تعاون اور academic discussion کے لیے دستیاب۔",
+        "cards": [
+          { "title": "پروفیشنل ای میل" },
+          { "title": "ذاتی ای میل" },
+          { "title": "پتہ", "lines": ["Centre for Mechanical Technology and Automation (TEMA)", "Dept. of Mechanical Engineering", "University of Aveiro, 3810-193", "Aveiro, Portugal"] }
+        ],
+        "profileLinks": [
+          { "label": "Google Scholar" },
+          { "label": "ORCID" },
+          { "label": "ذاتی ویب سائٹ" },
+          { "label": "TEMA پروفائل" }
+        ]
+      }
+    }
+  }
+}
