@@ -156,16 +156,16 @@
       ],
       [
         { "primary": "English" },
-        "Upper Int. (B2)",
-        "Proficiency (C2)",
-        "Proficiency (C2)",
         "Advanced (C1)",
+        "Proficiency (C2)",
+        "Proficiency (C2)",
+        "Proficiency (C2)",
         "Proficiency (C2)"
       ],
       [
         { "primary": "Portuguese" },
         "Beginner (A1)",
-        "Beginner (A1)",
+        "Intermediate (B1)",
         "Beginner (A1)",
         "Intermediate (B1)",
         "Upper Int. (B2)"
@@ -414,13 +414,12 @@
     "projectsTitle": "Key Research Projects",
     "featured": {
       "badge": "Featured Software",
-      "title": "MariaBike Dashboard",
-      "description": "Real-Time E-Bike Dashboard with BLE and MQTT Integration. A tool for physiological monitoring in mobility.",
+      "title": "xyz Dashboard",
+      "description": "description here ...",
       "features": [
-        "Real-Time Dashboard",
-        "BLE and MQTT Integration",
-        "Android / iOS Compatible",
-        "Version 0.1 (2025)"
+        "feature 1",
+         "feature 2",
+         "feature 3"
       ],
       "cta": {
         "label": "Request Demo",
@@ -430,69 +429,57 @@
       },
       "images": [
         {
-          "src": "https://cdn.dribbble.com/userupload/44171614/file/original-1853d6bdbdf73850900f867e2fe9dfbb.png?resize=752x",
+          "src": "https://cdn.asddads.com/userupload/44171614/file/original-1853d6bdbdf73850900f867e2fe9dfbb.png?resize=752x",
           "alt": "Dashboard interface concept"
         },
         {
-          "src": "https://www.chigee.com/cdn/shop/articles/Smart_Digital_Displays_for_Motorcycles_Essential_Upgrade_or_Lavish_Luxury.png?v=1745466648&width=2048",
+          "src": "https://www.asdsadsd.com/cdn/shop/articles/Smart_Digital_Displays_for_Motorcycles_Essential_Upgrade_or_Lavish_Luxury.png?v=1745466648&width=2048",
           "alt": "Smart vehicle digital display"
         },
         {
-          "src": "https://www.hyena-ebike.com/wp-content/uploads/2024/05/HyenaSync-14.png",
+          "src": "https://www.asdsdadad-ebike.com/wp-content/uploads/2024/05/HyenaSync-14.png",
           "alt": "E-bike connected app interface"
         }
       ]
     },
     "projects": [
       {
-        "title": "FCT BDANA PhD Work Programme (2026-2030)",
+        "title": "Fellowship",
         "role": "PhD Studentship",
-        "meta": "Embedded intelligent systems for personalized and sustainable mobility, developed at the University of Aveiro within the AM2R and MariaBike research context."
+        "meta": "agentic aifor health monitoring, developed at the University of algarve research context."
       },
       {
-        "title": "AM2R Mobilizing Agenda",
+        "title": "Fellowship",
         "role": "PhD Student Fellow (2023-2025)",
-        "meta": "Mobilizing Agenda for business innovation in the Two-Wheel sector, University of Aveiro."
+        "meta": "iscte"
       },
       {
-        "title": "BREUCA",
-        "role": "Research Fellow (Mar 2023 - Jun 2023)",
-        "meta": "Development of a high-precision Virtual Reality simulator for professional simulation."
+        "title": "CRASH simulation",
+        "role": "Research Fellow (Feb 2023 - Jun 2023)",
+        "meta": "Development of a high-precision Virtual Reality simulator for professional car crash simulation."
       }
     ]
   },
   "service": {
-    "title": "Service & Mentorship",
+    "title": "Software Development Experience",
     "items": [
       {
-        "date": "2024/10/01 - 2025/06/30",
-        "title": "Scientific Mentorship (CHAI I)",
-        "organization": "University of Aveiro",
-        "description": "Mentoring student: Jo\u00e3o Bispo (Social Sciences, Humanities, Arts, and Research I)."
+        "date": "01/02/2022 - 01/10/2022",
+        "title": "SOFTWARE DEVELOPER @ QISSTPAY",
+        "organization": "QISSTPAY Islamabad, Pakistan",
+        "description": "Golang Backend Developer – FinTech (1-Click Checkout)"
       },
       {
-        "date": "2022/06/01 - 2023/06/30",
-        "title": "Thesis Supervisor",
-        "organization": "University of Baltistan, Pakistan",
-        "description": "Topic: IoT-Based Smart Farming System with Real-Time Soil Moisture and Weather Monitoring."
+        "date": "01/10/2021 - 01/03/2022",
+        "title": "SOFTWARE DEVELOPER @ DATAZOO",
+        "organization": "DATAZOO Australia(remote)",
+        "description": "Developed backend services in Golang for the DataZoo KYC platform, enabling businesses and individuals to verify customer identities, screen against global watchlists, and ensure regulatory compliance. Focused on implementing secure REST APIs, HTTP request handling, and scalable backend architecture."
       },
       {
-        "date": "2020/01/01 - 2021/01/31",
-        "title": "Thesis Co-supervisor",
-        "organization": "University of Baltistan, Pakistan",
-        "description": "Topic: Real-Time Emotion Recognition from Facial Expressions Using Deep Learning."
-      },
-      {
-        "date": "2024/12/10 - 2024/12/11",
-        "title": "Poster Presentation: AM2R",
-        "organization": "AM2R Technical Scientific Conference, Portugal",
-        "description": "Presented \"Smart E-Bike Systems: Integrating Rider-Specific Information to Enhance the Riding Experience\"."
-      },
-      {
-        "date": "2024/06/06 - 2024/06/07",
-        "title": "Conference Presentation",
-        "organization": "EchMA2024, University of Aveiro",
-        "description": "Presentation on integrating physiological signals from wearables into embedded mobility solutions (MariaBike)."
+        "date": "01/02/2020 - 01/12/2021",
+        "title": "SOFTWARE DEVELOPER @ DSS",
+        "organization": "DSS Islamabad, Pakistan",
+        "description": "Developed backend services in Golang and Pythonfor a comprehensive OSINT (Open-Source Intelligence) framework, enabling automated data gathering from public sources, entity relationship mapping, and threat intelligence generation. Implemented high-performance APIs, gRPC microservices, and HTTP-based data collectors."
       }
     ]
   },
@@ -503,30 +490,30 @@
       {
         "icon": "fas fa-envelope",
         "title": "Email (Professional)",
-        "href": "mailto:syedtahiralishah@ua.pt",
-        "lines": ["syedtahiralishah@ua.pt"]
+        "href": "mailto:a92278@ualg.pt",
+        "lines": ["a92278@ualg.pt"]
       },
       {
         "icon": "fas fa-at",
         "title": "Email (Personal)",
-        "href": "mailto:syedtahirkzm1@gmail.com",
-        "lines": ["syedtahirkzm1@gmail.com"]
+        "href": "mailto:ikramkhan483@gmail.com",
+        "lines": ["ikramkhan483@gmail.com"]
       },
       {
         "icon": "fas fa-map-marker-alt",
         "title": "Address",
         "lines": [
-          "Centre for Mechanical Technology and Automation (TEMA)",
-          "Dept. of Mechanical Engineering",
-          "University of Aveiro, 3810-193",
-          "Aveiro, Portugal"
+          "Visual Computing Lab, ISE, UALG",
+          "Dept. of Informatics Engineering",
+          "University of Algarve",
+          "Faro, Portugal"
         ]
       }
     ],
     "profileLinks": [
       {
         "label": "Google Scholar",
-        "href": "https://scholar.google.com/citations?user=VED2-h4AAAAJ",
+        "href": "https://scholar.google.com/citations?user=MhZZJisAAAAJ&hl=en",
         "icon": "fas fa-graduation-cap",
         "color": "#111827"
       },
@@ -538,38 +525,26 @@
       },
       {
         "label": "Personal Website",
-        "href": "https://tahirkazmi72.github.io/syedtahiralishah",
+        "href": "https://ikramcase.github.io/ikramullahkhan",
         "icon": "fas fa-globe",
         "color": "#0f766e"
       },
       {
-        "label": "TEMA Profile",
-        "href": "https://www.temaua.pt/pt/pessoas/membros/syed-tahir-ali-shah/",
-        "icon": "fas fa-university",
-        "color": "#b45309"
-      },
-      {
         "label": "LinkedIn",
-        "href": "https://pt.linkedin.com/in/syed-tahir-ali-shah-a1582897",
+        "href": "https://www.linkedin.com/in/ikramullah-khan-3b6078a5/",
         "icon": "fab fa-linkedin",
         "color": "#0a66c2"
-      },
-      {
-        "label": "ResearchGate",
-        "href": "https://www.researchgate.net/profile/Syed-Tahir-Ali-Shah",
-        "icon": "fab fa-researchgate",
-        "color": "#00a59b"
       }
     ],
     "socials": [
       {
         "label": "LinkedIn",
-        "href": "https://pt.linkedin.com/in/syed-tahir-ali-shah-a1582897",
+        "href": "https://www.linkedin.com/in/ikramullah-khan-3b6078a5/",
         "icon": "fab fa-linkedin"
       },
       {
         "label": "ResearchGate",
-        "href": "https://www.researchgate.net/profile/Syed-Tahir-Ali-Shah",
+        "href": "https://www.researchgate.net/profile/Ikramullah-Khan",
         "icon": "fab fa-researchgate"
       }
     ]
