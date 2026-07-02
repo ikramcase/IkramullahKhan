@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tahirkazmi72.github.io/syedtahiralishah/sitemap.xml
+Sitemap: https://ikramcase.github.io/ikramullahkhan/sitemap.xml
