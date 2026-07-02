@@ -21,24 +21,24 @@
   },
   "hero": {
     "subtitle": "Ph.D. Researcher",
-    "title": "Advancing Mobility through Emotion-Aware IoT",
-    "summary": "Exploring the intersection of Informatics, Agentic AI, and Health monitoring at the University of Aveiro.",
+    "title": "Health monitoring with Ai Agentic Systems using Large Language Models",
+    "summary": "Exploring the intersection of Informatics, Agentic AI, and Health monitoring at the University of Algarve.",
     "actions": [
       { "label": "Discover My Work", "href": "#bio", "external": false },
       { "label": "Certificates", "href": "#certificates", "icon": "fas fa-certificate", "external": false }
     ],
     "images": [
       {
-        "src": "https://cdn.motor1.com/images/mgl/40mm8o/s1/new-okgo-smart-e-bike-boasts-futuristic-style-and-tech.jpg",
-        "alt": "Smart e-bike technology concept"
+        "src": "https://cdn.motor1.com/images/{add an image link here}",
+        "alt": "Ai Agent health monitoring technology concept"
       },
       {
-        "src": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/1/7/1389114585675/Smart-e-bike-004.jpg?width=1200&dpr=1&s=none&crop=none",
-        "alt": "Smart e-bike on display"
+        "src": "https://i.guim.co.uk/img{add an image link here}",
+        "alt": "Ai monitoring on display concept"
       },
       {
-        "src": "https://inhabitat.com/wp-content/blogs.dir/1/files/2014/11/04_SEA-DENNY-the-Denny-bike-also-has-a-fully-integrated-smart-lighting-system-that-adapts-the-intensity-based-on-the-natural-light-conditions_Teague_1280.jpg",
-        "alt": "Connected bicycle lighting system"
+        "src": "https://inhabitat.com{image link here}",
+        "alt": "Health monitoring system"
       }
     ]
   },
@@ -49,9 +49,7 @@
       "alt": "Portrait of Ikramullah Khan"
     },
     "paragraphs": [
-      "Ikramullah Khan is a multidisciplinary PhD researcher working at the intersection of Mechanical Engineering, Computer Science, and embedded Internet-of-Things (IoT) systems. He is currently a PhD student in Mechanical Engineering at the University of Aveiro (Portugal) and holds a PhD fellowship (BDANA track) supported by Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia (FCT).",
-      "With a solid background in Computer Science, his work bridges hardware-software integration, wearable sensing, and edge intelligence. His current research focuses on developing emotion-aware and physiology-aware mobility systems, using data from wearable devices such as heart rate and motion signals together with embedded machine learning models to support safer, more adaptive, and human-centred smart mobility solutions.",
-      "Overall, his work promotes the next generation of intelligent systems that respond to human needs in real time, combining engineering design, data science, and embedded computing."
+      "Ikramullah Khan is a multidisciplinary PhD researcher working at the intersection of Artificial Intelligence, Computer Science, and Large Language Models. He is currently a PhD student in Informatics at the University of Algarve (Portugal) and holds a PhD fellowship supported by NOVA LINCS (FCT)."
     ]
   },
   "education": {
@@ -79,7 +77,7 @@
         "date": "Current (From 2026/01/01)",
         "title": "Research Trainee",
         "organization": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, Portugal",
-        "description": "Host: Universidade de Aveiro Departamento de Engenharia Mec\u00e2nica."
+        "description": "Host: Universidade de Algarve Departamento de Engenharia Mec\u00e2nica."
       },
       {
         "date": "2025/09/01 - 2028/09/01",
@@ -95,24 +93,13 @@
     "emptyMessage": "Certificate files have not been added yet.",
     "items": [
       {
-        "id": "best-paper-jps-2026",
-        "title": "Best Paper Award Certificate",
-        "issuer": "2026 9th International Conference on Information and Computer Technologies (ICICT 2026)",
-        "date": "March 11-13, 2026",
-        "description": "For paper CT0805: Physio-Digital Twin for Human-Centered IoT Mobility: A Proof-of-Concept Implementation on the MariaBike Platform.",
-        "file": "assets/certificates/best-paper-jps-2026.pdf",
-        "thumbnail": "assets/certificates/best-paper-jps-2026.png",
-        "buttonLabel": "View Certificate"
-      },
-      {
-        "title": "Scientific Mentorship I Participation Certificate",
-        "issuer": "University of Aveiro - Department of Medical Sciences",
-        "date": "Academic year 2024/2025",
-        "description": "Certificate of participation as a scientific mentor in the Scientific Mentorship I Program, CHAI I, with a total workload of 13 hours.",
-        "file": "assets/certificates/scientific-mentorship-chai-2025.pdf",
-        "thumbnail": "assets/certificates/scientific-mentorship-chai-2025.png",
-        "verifyUrl": "https://credsverse.com/credentials/a46da3d3-169d-448b-b702-36f8a1bbba28",
-        "verifyLabel": "Verify Online",
+        "id": "cert1-jps-2026",
+        "title": "Paper Award Certificate",
+        "issuer": "International Conference",
+        "date": "March , 2026",
+        "description": "",
+        "file": "assets/certificates/best-paper-jps-26.pdf",
+        "thumbnail": "assets/certificates/best-paper-jps-26.png",
         "buttonLabel": "View Certificate"
       }
     ]
@@ -121,24 +108,9 @@
     "title": "Research Interests",
     "items": [
       {
-        "icon": "fas fa-brain",
-        "title": "Affective Computing",
-        "description": "Integrating human emotional factors into IoT networks to create responsive environments."
-      },
-      {
-        "icon": "fas fa-microchip",
-        "title": "Embedded ML",
-        "description": "Deploying machine learning models directly onto mobile and embedded runtimes, including TinyML and Edge AI."
-      },
-      {
         "icon": "fas fa-heartbeat",
         "title": "Physiological Monitoring",
-        "description": "Wearable-driven sensing for real-time health and stress tracking during mobility."
-      },
-      {
-        "icon": "fas fa-motorcycle",
-        "title": "Smart Mobility",
-        "description": "IoT architectures for smart homes and next-generation electric vehicles."
+        "description": "Wearable-driven sensing for real-time health and stress tracking."
       }
     ]
   },
@@ -156,7 +128,7 @@
       ],
       [
         { "primary": "English" },
-        "Advanced (C1)",
+        "Proficiency (C2)",
         "Proficiency (C2)",
         "Proficiency (C2)",
         "Proficiency (C2)",
@@ -166,7 +138,7 @@
         { "primary": "Portuguese" },
         "Beginner (A1)",
         "Intermediate (B1)",
-        "Beginner (A1)",
+        "Intermediate (B1)",
         "Intermediate (B1)",
         "Upper Int. (B2)"
       ]
@@ -186,226 +158,34 @@
         "year": 2026,
         "status": "Published (2026)",
         "statusType": "published",
-        "title": "Machine Learning In Animal Disease Diagnosis: Developing Predictive Models For Disease Diagnosis Using Machine Learning Algorithms And Sensor Data",
-        "venue": "Research Consortium Archive, Vol. 4 No. 1 (2026)",
-        "authors": "S. Bibi, B. Khan, F. Sehar, N. Akhtar, F. Nawaz, Ikramullah Khan.",
-        "url": "https://rcresearcharchive.com/index.php/Journal/article/view/592",
+        "title": "Generative AI for Wearable Information Fusion: Evidence Mapping the Reality Gap in Activity Recognition and Health Monitoring",
+        "venue": "Information Fusion",
+        "authors": "Ikramullah Khan, Jaimes A. Martins, Pedro J S Cardoso",
+        "url": "",
         "linkLabel": "Read Article"
       },
       {
         "category": "journal",
-        "year": 2026,
-        "status": "Published (2026)",
-        "statusType": "published",
-        "title": "The Micro-Mobility Sensing Gap: A Systematic Review of Physiological Safety Monitoring from Cycling to E-Scooters",
-        "venue": "Sensors",
-        "authors": "Ikramullah Khan, J. M. Fernandes, J. P. Santos, G. Constantinescu, Ant\u00f3nio B. Pereira.",
-        "url": "https://doi.org/10.3390/s26041110",
-        "linkLabel": "Read Article",
-        "source": "cienciavitae, orcid",
-        "doi": "10.3390/s26041110"
-      },
-      {
-        "category": "journal",
-        "year": 2026,
-        "status": "Submitted (2026)",
-        "statusType": "submitted",
-        "title": "Mechanical Properties of Novel Biaxial Non-Crimp Fabrics for Sustainable 2-Wheeled Electrical Vehicles",
-        "venue": "Journal Article",
-        "authors": "G. Constantinescu, A. Horovistiz, Ikramullah Khan, J.P. Santos, M.C. Coelho, J.M. Cardoso, R.B. Figueiredo, et al.",
-        "note": "Corresponding author: Gabriel Constantinescu",
-        "source": "cienciavitae"
-      },
-      {
-        "category": "journal",
-        "year": 2026,
-        "status": "Published (2026)",
-        "statusType": "published",
-        "title": "Tensile and Flexural Behavior of Biaxial Non-Crimp-Fabric Composites for Two-Wheeled Electric-Vehicle Chassis",
-        "venue": "Fibers (2026)",
-        "authors": "Gabriel Constantinescu, Ikramullah Khan, Jos\u00e9 Paulo Oliveira Santos, Jo\u00e3o Manuel Cardoso, M\u00e1rio Jorge de Sousa Henriques, Ant\u00f3nio Manuel de Bastos Pereira",
-        "url": "https://doi.org/10.3390/fib14050061",
-        "linkLabel": "Read Article",
-        "source": "cienciavitae, orcid",
-        "doi": "10.3390/fib14050061"
-      },
-      {
-        "category": "journal",
-        "year": 2025,
-        "status": "Submitted (2025)",
-        "statusType": "submitted",
-        "title": "State-of-the-Art in Machine Learning on Embedded and Mobile Runtimes: A Critical Review and Future Roadmap",
-        "venue": "Journal Article",
-        "authors": "Ikramullah Khan, J.M. Fernandes, J.P. Santos, G. Constantinescu, M.S. Henriques.",
-        "source": "cienciavitae"
-      },
-      {
-        "category": "journal",
-        "year": 2025,
-        "status": "Submitted (2025)",
-        "statusType": "submitted",
-        "title": "Smart E-bike systems: Integrating own rider information for improving riding experience",
-        "venue": "Journal Article",
-        "authors": "Ikramullah Khan, J.M. Fernandes, J.P. Santos, G. Constantinescu, A.B. Pereira, M.S. Henriques.",
-        "source": "cienciavitae, orcid"
-      },
-      {
-        "category": "journal",
-        "year": 2025,
-        "status": "Submitted (2025)",
-        "statusType": "submitted",
-        "title": "Tensile Properties of Sustainable Biaxial Non-Crimp Fabrics for 2-Wheeled Electrical Vehicle Chassis",
-        "venue": "Journal Article",
-        "authors": "Ikramullah Khan, G. Constantinescu, A. Horovistiz, J.P.O. Santos, A.M.B. Pereira, M.S. Henriques.",
-        "note": "Corresponding author: Gabriel Constantinescu",
-        "source": "cienciavitae, orcid"
-      },
-      {
-        "category": "journal",
-        "year": 2025,
-        "status": "Submitted - Open Access (2025)",
-        "statusType": "submitted",
-        "title": "Wearable-Driven Adaptive Lighting Control for Smart Homes: A Scalable, Physiology-Aware IoT Architecture",
-        "venue": "Journal Article",
-        "authors": "Ikramullah Khan, J.M. Fernandes, J.P. Santos, G. Constantinescu, A.B. Pereira, M.S. Henriques.",
-        "source": "cienciavitae"
-      },
-      {
-        "category": "journal",
-        "year": 2025,
-        "title": "MACHINE LEARNING-BASED NETWORK INTRUSION DETECTION USING RANDOM COMMITTEE ENSEMBLES: A MULTI-METRIC PERFORMANCE EVALUATION",
-        "venue": "Zenodo (2025)",
-        "authors": "J.H. Arman, M.U. Sharaf, Ikramullah Khan, N. Sohu, Sindhu, U. Tariq.",
-        "url": "https://doi.org/10.5281/zenodo.17129656",
-        "linkLabel": "Read Article",
-        "status": "Published (2025)",
-        "statusType": "published",
-        "source": "cienciavitae, orcid",
-        "doi": "10.5281/zenodo.17129656"
-      },
-      {
-        "category": "journal",
-        "year": 2020,
-        "status": "Published (2020)",
-        "statusType": "published",
-        "title": "PREDICTING COVID-19 INFECTIONS PREVALENCE USING LINEAR REGRESSION TOOL",
-        "venue": "Journal of Experimental Biology and Agricultural Sciences, 8 Spl-1-SAR",
-        "authors": "Ikramullah Khan, A. Iftikhar, M.I. Khan, M. Mansoor, A.F. Mirza, M. Bilal.",
-        "url": "https://doi.org/10.18006/2020.8(spl-1-sars-cov-2).s01.s08",
-        "linkLabel": "Read Article",
-        "source": "cienciavitae, orcid",
-        "doi": "10.18006/2020.8(spl-1-sars-cov-2).s01.s08"
-      },
-      {
-        "category": "journal",
-        "year": 2020,
-        "status": "Published (2020)",
-        "statusType": "published",
-        "title": "Predicting COVID-19 Spread in Pakistan using the SIR Model",
-        "venue": "Journal of Pure and Applied Microbiology, 14(2)",
-        "authors": "Ikramullah Khan, M. Mansoor, A.F. Mirza, M. Dilshad, M.I. Khan, R. Farwa, M.A. Khan, M. Bilal, H.M.N. Iqbal.",
-        "url": "https://doi.org/10.22207/JPAM.14.2.40",
-        "linkLabel": "Read Article",
-        "source": "cienciavitae, orcid",
-        "doi": "10.22207/JPAM.14.2.40"
-      },
-      {
-        "category": "journal",
-        "year": 2020,
-        "status": "Published (2020)",
-        "statusType": "published",
-        "title": "Text Steganography Using Character Spacing after Normalization",
-        "venue": "International Journal of Scientific & Engineering Research, 11(2)",
-        "authors": "Ikramullah Khan, Dr. A. Khan, Dr. A. Hussain.",
-        "url": "https://doi.org/10.14299/ijser.2020.02.05",
-        "linkLabel": "Read Article",
-        "source": "cienciavitae, orcid",
-        "doi": "10.14299/ijser.2020.02.05"
-      },
-      {
-        "category": "conference",
-        "year": 2026,
-        "status": "Published (2026)",
-        "statusType": "published",
-        "title": "Physio-Digital Twin for Human-Centered IoT Mobility: A Proof-of-Concept Implementation on the MariaBike Platform",
-        "venue": "2026 The 9th International Conference on Information and Computer Technologies (ICICT 2026), Honolulu-Hawaii",
-        "authors": "Ikramullah Khan, J.P. Santos, Gabriel Constantinescu, Jos\u00e9 M. Fernandes, A.B. Pereira.",
-        "doi": "10.1145/3803291.3803295",
-        "url": "https://doi.org/10.1145/3803291.3803295",
-        "linkLabel": "Read Article",
-        "note": "Best Paper Award; corresponding author: Ikramullah Khan.",
-        "certificateId": "best-paper-jps-2026",
-        "source": "orcid"
-      },
-      {
-        "category": "conference",
-        "year": 2026,
-        "status": "Accepted (2026)",
-        "statusType": "accepted",
-        "title": "Spatio-Temporal Analytics of Traffic-Induced Stress: A Longitudinal Sensor Fusion Study in Real-World Micromobility Environments",
-        "venue": "ICCDE 2026, Phuket",
-        "authors": "Ikramullah Khan, Jos\u00e9 Maria Fernandes, Jos\u00e9 Paulo Oliveira Santos, Gabriel Constantinescu, Ant\u00f3nio Manuel de Bastos Pereira."
-      },
-      {
-        "category": "conference",
-        "year": 2026,
-        "title": "Urban Biometrics in Motion: A Longitudinal Sensor Fusion Framework for Quantifying Traffic-Induced Stress in Micromobility Environments",
-        "venue": "Conference Paper",
-        "authors": "Ikramullah Khan, Jos\u00e9 P. Santos, Antonio B. Pereira, Gabriel Constantinescu, Jos\u00e9 M. Fernandes",
-        "url": "https://doi.org/10.1145/3801839.3801849",
-        "linkLabel": "Read Article",
-        "source": "orcid",
-        "doi": "10.1145/3801839.3801849"
-      },
-      {
-        "category": "conference",
-        "year": 2025,
-        "status": "Published (2025)",
-        "statusType": "published",
-        "title": "Tensile and flexural characterizations of biaxial non-crimp fabric composites for sustainable, two-wheeled electric vehicle chassis",
-        "venue": "TEchMA 2025 - New frontiers in mechanical engineering, Aveiro",
-        "authors": "G. Constantinescu, A. Horovistiz, Ikramullah Khan, J.P.O. Santos, A.M.B. Pereira, J.P. Alves, S. Lu\u00eds, M.S. Henriques."
-      },
-      {
-        "category": "conference",
-        "year": 2025,
-        "status": "Published (2025)",
-        "statusType": "published",
-        "title": "From ride data to carbon credits: a LCA-based mobile solution for sustainable EV usage",
-        "venue": "TEchMA 2025 - New frontiers in mechanical engineering, Aveiro",
-        "authors": "G. Constantinescu, Ikramullah Khan, J.P.O. Santos, A.M.B. Pereira, J.M.A. Fernandes, L. Borgato, F. Orsini, et al.",
-        "source": "orcid"
-      },
-      {
-        "category": "conference",
-        "year": 2025,
-        "status": "Published (2025)",
-        "statusType": "published",
-        "title": "Compressive and shear behaviour of novel non-crimp fabric composites for sustainable and lightweight electrical mobility",
-        "venue": "TEchMA 2025 - New frontiers in mechanical engineering, Aveiro",
-        "authors": "G. Constantinescu, A. Horovistiz, Ikramullah Khan, J.P.O. Santos, A.M.B. Pereira, J.P. Alves, S. Lu\u00eds, M.S. Henriques."
-      },
-      {
-        "category": "conference",
-        "year": 2024,
-        "status": "Submitted (2024)",
-        "statusType": "submitted",
-        "title": "Smart E-bike systems: Integrating own rider information for improving riding experience",
-        "venue": "1\u00aa Confer\u00eancia AM2R: O Futuro da Mobilidade Sustent\u00e1vel, de Portugal para o Mundo, Porto",
-        "authors": "Ikramullah Khan, J.M. Fernandes, J.P.O. Santos, G. Constantinescu, A.M.B. Pereira, H. Ana, M.S. Henriques."
-      },
-      {
-        "category": "conference",
         "year": 2024,
         "status": "Published (2024)",
         "statusType": "published",
-        "title": "Extending IoT Networks with the Human Factor: An Example for an E-bike Scenario (Emotion Sensitive Computing)",
-        "venue": "7TH INTERNATIONAL CONFERENCE ON TECHNOLOGIES FOR THE WELLBEING AND SUSTAINABLE MANUFACTURING SOLUTIONS, Aveiro",
-        "authors": "Ikramullah Khan",
-        "source": "orcid",
-        "url": "https://doi.org/10.48528/mehv-z227",
-        "linkLabel": "Read Article",
-        "doi": "10.48528/mehv-z227"
+        "title": "A Survey of Distributed Ledger Technologies in the Health Domain",
+        "venue": "Journal of Information Assurance and Security Volume 19 (2024): Issue 6 (December 2024)",
+        "authors": "Ikramullah Khan, S Phuya, Ricardo Correia, Joao C. Ferreira",
+        "url": "https://doi.org/10.2478/ias-2024-0017",
+        "linkLabel": "Read Article"
+      },
+      {
+        "category": "conference",
+        "year": 2026,
+        "status": "tobe (2026)",
+        "statusType": "not published",
+        "title": "",
+        "venue": "",
+        "authors": "Ikramullah Khan,",
+        "doi": "",
+        "url": "",
+        "linkLabel": "Read Article"
       }
     ]
   },
